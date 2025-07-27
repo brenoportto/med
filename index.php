@@ -7,10 +7,6 @@ error_reporting(E_ALL);
 // Inicia a sessão
 session_start();
 
-// Configuração de erros
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Conexão com o banco de dados compartilhado
 $servername = "localhost";
 $username = "root";
